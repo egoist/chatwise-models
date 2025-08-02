@@ -7,8 +7,9 @@
     "deploy": "wrangler deploy",
     "dev": " wrangler dev",
     "test": "wrangler deploy --dry-run && npx vitest run --config tests/vitest.config.mts",
-    "build": "pnpm run gen-ollama",
-    "gen-ollama": "pnpx tsx scripts/gen-ollama.ts"
+    "build": "pnpm run gen-ollama && pnpm run gen-modelscope",
+    "gen-ollama": "pnpx tsx scripts/gen-ollama.ts",
+    "gen-modelscope": "pnpx tsx scripts/gen-modelscope.ts"
   },
   "dependencies": {
     "hono": "4.8.2",

@@ -39,5 +39,10 @@ app.get("/volces", async (c) => {
   return c.json({ models })
 })
 
+app.get("/modelscope", async (c) => {
+  const { default: models } = await import("../data/modelscope.js")
+  return c.json({ models })
+})
+
 // Export the Hono app
 export default app
