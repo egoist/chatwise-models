@@ -1,0 +1,157 @@
+import type { Model } from "../src/types"
+
+export default [
+  {
+    id: "kimi-k2-250711",
+    name: "Kimi-K2",
+    description: "总参数 1T, 激活参数 32B. 在通用知识推理、编程、数学、Agent 等主要类别的基准性能测试中, K2 模型的性能超过其他主流开源模型",
+    contextLimit: 128_000,
+    maxOutputLimit: 32_000,
+    price: {
+      inputText: 4.0,
+      outputText: 16.0,
+      currency: "CNY",
+    },
+  },
+  {
+    id: "doubao-seed-1-6-250615",
+    name: "Doubao-Seed-1.6",
+    description: "能力多面手, 应用场景丰富. 分段计费",
+    contextLimit: 256_000,
+    maxOutputLimit: 32_000,
+  },
+  {
+    id: "doubao-seed-1-6-thinking-250715",
+    name: "Doubao-Seed-1.6-thinking",
+    description: "深度思考能力领先。分段计费",
+    contextLimit: 256_000,
+    maxOutputLimit: 64_000,
+  },
+  {
+    id: "doubao-seed-1-6-flash-250715",
+    name: "Doubao-Seed-1.6-flash",
+    description: "小尺寸,低延时,高性价比。分段计费",
+    contextLimit: 256_000,
+    maxOutputLimit: 16_000
+  },
+  {
+    id: "doubao-1-5-thinking-vision-pro-250428",
+    name: "Doubao-1.5-thinking-vision-pro",
+    description: "性能优秀 - 性能最优，语言理解、逻辑推理、指令遵循、长文本处理效果领先",
+    contextLimit: 128_000,
+    maxOutputLimit: 32_000,
+    price: {
+      inputText: 3.0,
+      outputText: 9.0,
+      currency: "CNY",
+    },
+  },
+  {
+    id: "doubao-1-5-thinking-pro-250415",
+    name: "Doubao-1.5-thinking-pro",
+    description: "在数学、编程、科学推理等专业领域及创意写作等通用任务中表现突出",
+    contextLimit: 128_000,
+    maxOutputLimit: 16_000,
+    price: {
+      inputText: 4.0,
+      outputText: 16.0,
+      currency: "CNY",
+    },
+  },
+  {
+    id: "doubao-1.5-vision-pro-250328",
+    name: "Doubao-1.5-vision-pro",
+    description: "视觉理解、分类、信息抽取等能力显著提升，并重点增强了解题、视频理解等场景的任务效果",
+    contextLimit: 128_000,
+    maxOutputLimit: 16_000,
+    price: {
+      inputText: 3.0,
+      outputText: 9.0,
+      currency: "CNY",
+    },
+  },
+  {
+    id: "doubao-1-5-vision-pro-32k-250115",
+    name: "Doubao-1.5-vision-pro-32k",
+    description: "支持任意分辨率和极端长宽比图像识别，增强视觉推理、文档识别、细节信息理解和指令遵循能力",
+    contextLimit: 32_000,
+    maxOutputLimit: 12_000,
+    price: {
+      inputText: 3.0,
+      outputText: 9.0,
+      currency: "CNY",
+    },
+  },
+  {
+    id: "doubao-1.5-vision-lite-250315",
+    name: "Doubao-1.5-vision-lite",
+    description: "支持任意分辨率和极端长宽比图像识别，增强视觉推理、文档识别、细节信息理解和指令遵循能力",
+    contextLimit: 128_000,
+    maxOutputLimit: 16_000,
+    price: {
+      inputText: 1.5,
+      outputText: 4.5,
+      currency: "CNY",
+    },
+  },
+  {
+    id: "deepseek-r1-250528",
+    name: "Deepseek-R1",
+    description: "DeepSeek-R1 满血版 671B 模型。与 Deepseek 官方效果对齐，数学、代码、自然语言推理能力比肩 OpenAI O1 正式版",
+    contextLimit: 128_000,
+    maxOutputLimit: 16_000,
+    price: {
+      inputText: 4.0,
+      outputText: 16.0,
+      currency: "CNY",
+    },
+  },
+  {
+    id: "deepseek-v3-250324",
+    name: "Deepseek-V3",
+    description: "DeepSeek-V3 多项评测成绩超越了 Qwen2.5-72B 和 Llama-3.1-405B 等其他开源模型，并在性能上和世界顶尖的闭源模型 GPT-4o 以及 Claude-3.5-Sonnet 不分伯仲",
+    contextLimit: 128_000,
+    maxOutputLimit: 16_000,
+    price: {
+      inputText: 2.0,
+      outputText: 8.0,
+      currency: "CNY",
+    },
+  },
+  {
+    id: "doubao-1-5-pro-256k-250115",
+    name: "Doubao-1.5-pro-256k",
+    description: "更高性能、更大窗口、超高性价比，适用于更广泛的应用场景",
+    contextLimit: 256_000,
+    maxOutputLimit: 12_000,
+    price: {
+      inputText: 5.0,
+      outputText: 9.0,
+      currency: "CNY",
+    },
+  },
+  {
+    id: "doubao-1-5-pro-32k-250115",
+    name: "Doubao-1.5-pro-32k",
+    description: "在知识、代码、推理等方面表现卓越",
+    contextLimit: 128_000,
+    maxOutputLimit: 12_000,
+    price: {
+      inputText: 0.8,
+      outputText: 2.0,
+      currency: "CNY",
+    },
+  },
+  {
+    id: "doubao-1-5-lite-32k-250115",
+    name: "Doubao-1.5-lite-32k",
+    description: "极速推理 - 国内最快的推理速度，支持 8 倍推理速度，问题即问即答",
+    contextLimit: 32_000,
+    maxOutputLimit: 12_000,
+    price: {
+      inputText: 0.3,
+      outputText: 0.6,
+      currency: "CNY",
+    },
+  },
+] satisfies Model[]
