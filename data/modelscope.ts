@@ -351,7 +351,7 @@ export default [
   {
     "id": "ZhipuAI/GLM-4.5",
     "name": "GLM-4.5",
-    "description": "深度求索R1系列，在多项基准测试中达到SOTA水平",
+    "description": "高智能旗舰 - 性能最优，强大的推理能力、代码生成能力以及工具调用能力",
     "contextLimit": 131072,
     "maxOutputLimit": 98304
   },
