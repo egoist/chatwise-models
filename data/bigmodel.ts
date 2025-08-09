@@ -2,6 +2,7 @@ import type { Model } from "../src/types"
 
 export default [
   {
+    type: "chat",
     id: "glm-4.5",
     name: "GLM-4.5",
     description:
@@ -15,6 +16,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-4.5-air",
     name: "GLM-4.5-Air",
     description:
@@ -28,6 +30,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-4.5-x",
     name: "GLM-4.5-X",
     description:
@@ -41,6 +44,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-4.5-airx",
     name: "GLM-4.5-AirX",
     description:
@@ -54,6 +58,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-4.5-flash",
     name: "GLM-4.5-Flash",
     description: "免费模型 - 最新基座模型的普惠版本",
@@ -61,6 +66,7 @@ export default [
     maxOutputLimit: 98_304,
   },
   {
+    type: "chat",
     id: "glm-4-plus",
     name: "GLM-4-Plus",
     description:
@@ -74,6 +80,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-4-air-250414",
     name: "GLM-4-Air-250414",
     description: "高性价比 - 快速执行复杂任务，擅长工具调用、联网搜索、代码",
@@ -86,6 +93,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-4-airx",
     name: "GLM-4-AirX",
     description: "极速推理 - 超快的推理速度，强大的推理效果",
@@ -98,6 +106,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-4-flashx",
     name: "GLM-4-FlashX",
     description: "高速低价 - Flash 增强版本，超快推理速度，更快并发保障",
@@ -110,6 +119,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-4-flashx-250414",
     name: "GLM-4-FlashX-250414",
     description: "高速低价 - Flash 增强版本，超快推理速度，更快并发保障",
@@ -122,6 +132,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-z1-air",
     name: "GLM-Z1-Air",
     description: "高性价比 - 高性价比，具备深度思考能力，数理推理能力显著增强",
@@ -134,6 +145,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-z1-airx",
     name: "GLM-Z1-AirX",
     description:
@@ -147,6 +159,7 @@ export default [
     },
   },
   {
+    type: "chat",
     id: "glm-z1-flash",
     name: "GLM-Z1-Flash",
     description: "免费模型 - 复杂任务推理，轻量级应用",
@@ -154,6 +167,7 @@ export default [
     maxOutputLimit: 32_768,
   },
   {
+    type: "chat",
     id: "glm-z1-flashx",
     name: "GLM-Z1-FlashX",
     description: "高速低价 - 超快推理速度，更快并发保障，极致性价比",

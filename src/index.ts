@@ -34,5 +34,10 @@ app.get("/bigmodel", async (c) => {
   return c.json({ models })
 })
 
+app.get("/azure-openai", async (c) => {
+  const { default: models } = await import("../data/azure-openai.js")
+  return c.json({ models })
+})
+
 // Export the Hono app
 export default app
