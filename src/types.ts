@@ -12,7 +12,7 @@ export type Model =
         outputText?: number
         currency?: "USD" | "CNY"
       }
-      supported_mimes?: string[]
+      supportedMimes?: string[]
     }
   | {
       type: "image"

@@ -12,7 +12,7 @@ export default [
       outputText: 4.4,
       currency: "USD",
     },
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
@@ -49,7 +49,7 @@ export default [
       outputText: 8,
       currency: "USD",
     },
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
@@ -62,7 +62,7 @@ export default [
       outputText: 60,
       currency: "USD",
     },
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
@@ -106,7 +106,7 @@ export default [
       outputText: 10,
       currency: "USD",
     },
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
@@ -119,7 +119,7 @@ export default [
       outputText: 10,
       currency: "USD",
     },
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
@@ -132,7 +132,7 @@ export default [
       outputText: 10,
       currency: "USD",
     },
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
@@ -152,7 +152,7 @@ export default [
     name: "GPT-4.1",
     contextLimit: 128_000,
     maxOutputLimit: 16_384,
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
@@ -160,7 +160,7 @@ export default [
     name: "GPT-4.1 Mini",
     contextLimit: 128_000,
     maxOutputLimit: 16_384,
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
@@ -168,7 +168,7 @@ export default [
     name: "GPT-4.1 Nano",
     contextLimit: 128_000,
     maxOutputLimit: 8_192,
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
@@ -181,7 +181,7 @@ export default [
       outputText: 0.6,
       currency: "USD",
     },
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
@@ -194,7 +194,7 @@ export default [
       outputText: 10,
       currency: "USD",
     },
-    supported_mimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
+    supportedMimes: ["image/jpeg", "image/png", "image/gif", "image/webp"],
   },
   {
     type: "chat",
