@@ -3,6 +3,48 @@ import type { Model } from "../src/types"
 export default [
   {
     type: "chat",
+    id: "glm-4.7",
+    name: "GLM-4.7",
+    description:
+      "GLM-4.7 系列是智谱最新旗舰模型，面向 Agentic Coding 场景强化了编码能力、长程任务规划与工具协同，并在多个公开基准的当期榜单中取得开源模型中的领先表现。通用能力提升，回复更简洁自然，写作更具沉浸感。在执行复杂智能体任务，在工具调用时指令遵循更强，Artifacts 与 Agentic Coding 的前端美感和长程任务完成效率进一步提升。",
+    contextLimit: 200_000,
+    maxOutputLimit: 128_000,
+    price: {
+      inputText: 2,
+      outputText: 8,
+      currency: "CNY",
+    },
+  },
+  {
+    type: "chat",
+    id: "glm-4.7-flashx",
+    name: "GLM-4.7-FlashX",
+    description:
+      "GLM-4.7 系列是智谱最新旗舰模型，面向 Agentic Coding 场景强化了编码能力、长程任务规划与工具协同，并在多个公开基准的当期榜单中取得开源模型中的领先表现。通用能力提升，回复更简洁自然，写作更具沉浸感。在执行复杂智能体任务，在工具调用时指令遵循更强，Artifacts 与 Agentic Coding 的前端美感和长程任务完成效率进一步提升。",
+    contextLimit: 200_000,
+    maxOutputLimit: 128_000,
+    price: {
+      inputText: 0.5,
+      outputText: 3,
+      currency: "CNY",
+    },
+  },
+  {
+    type: "chat",
+    id: "glm-4.7-flash",
+    name: "GLM-4.7-Flash",
+    description:
+      "GLM-4.7 系列是智谱最新旗舰模型，面向 Agentic Coding 场景强化了编码能力、长程任务规划与工具协同，并在多个公开基准的当期榜单中取得开源模型中的领先表现。通用能力提升，回复更简洁自然，写作更具沉浸感。在执行复杂智能体任务，在工具调用时指令遵循更强，Artifacts 与 Agentic Coding 的前端美感和长程任务完成效率进一步提升。",
+    contextLimit: 200_000,
+    maxOutputLimit: 128_000,
+    price: {
+      inputText: 0,
+      outputText: 0,
+      currency: "CNY",
+    },
+  },
+  {
+    type: "chat",
     id: "glm-4.5",
     name: "GLM-4.5",
     description:
