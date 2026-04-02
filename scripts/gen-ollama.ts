@@ -11,13 +11,18 @@ async function extractModels() {
     const res = await fetch(`https://ollama.com/search?page=${page}&o=newest`)
     const $ = load(await res.text())
 
-    const pageModels: { id: string; description: string; sizes: string[] }[] =
-      []
+    const pageModels: {
+      id: string
+      description: string
+      sizes: string[]
+      capabilities: string[]
+    }[] = []
 
     $("[x-test-model]").each((_, el) => {
       const id = $(el).find("[x-test-search-response-title]").text()
       const description = $(el).find("p").first().text()
       const sizes: string[] = []
+      const capabilities: string[] = []
 
       const hasCloud = $(el)
         .find("a")
@@ -36,6 +41,12 @@ async function extractModels() {
           sizes.push($(sizeEl).text())
         })
 
+      $(el)
+        .find("[x-test-capability]")
+        .each((_, el) => {
+          capabilities.push($(el).text())
+        })
+
       if (id && !seen.has(id)) {
         seen.add(id)
         if (sizes.length > 0) {
@@ -43,6 +54,7 @@ async function extractModels() {
             id,
             description,
             sizes,
+            capabilities,
           })
         }
       }
@@ -72,7 +84,7 @@ async function extractModels() {
         ...m,
         defaultSize,
       }
-    })
+    }),
   )
 }
 
@@ -81,7 +93,7 @@ async function main() {
 
   fs.writeFileSync(
     "gen/ollama-models.js",
-    `export const models = ${JSON.stringify(await extractModels())}`
+    `export const models = ${JSON.stringify(await extractModels())}`,
   )
 }
 
